@@ -67,7 +67,7 @@ Yes you are. https://prometheus.io/docs
 IMO, it adds an extra layer that’s bound to fail. Instead of using it, consider creating a custom exporter that retrieves state data from your application first before going this route.
 
 ## Links/Sources
-* https://www.robustperception.io/blog - A good source to search for some examples
+* https://www.robustperception.io/blog - A good source to search for some metric/alerting examples. 
 * Book: Prometheus - Up & Running - A slightly more detailed version of docs with a few more examples.
 * [My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit) - a short guide written by a former Google SRE
 * [Google's SRE Book](https://sre.google/sre-book/table-of-contents/) - I wouldn’t read the whole thing but it has some useful info for ways to think about monitoring/alerting. 
