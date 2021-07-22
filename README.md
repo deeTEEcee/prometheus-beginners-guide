@@ -15,6 +15,8 @@ In its simplest form, prometheus can function with the following services
 * Exporter - An exporter is just their fancy term for "http service that provides metrics in a plaintext, prometheus-compatible format". (You'll likely have many of these)
 * Notification  - This is an external service that receives the alerts and notifies us. 
 
+[This video](https://www.youtube.com/watch?v=h4Sl21AKiDg) also does a great job going through the basics of what prometheus architecture is about and what developers need to know to set it up.
+
 ### Configuration 
 Both prometheus and alertmanager have their own configs. The alert logic is actually managed by prometheus. Alertmanager is responsible for routing those alerts to the right services as well as some extra functionality (silencing, grouping, filtering, etc.). 
 
